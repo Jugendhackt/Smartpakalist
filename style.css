@@ -1,5 +1,8 @@
 h1 {
-    background-color:#00aeef ; 
+    font-style: italic;
+    font-family: cursive;
+    margin-left: 10px;
+	  color: white;
 }
 
 body {
@@ -7,14 +10,58 @@ body {
 		gap: 0.5em;
 }
 
-@media (min-width: 45em) { 
-	/* Breite beträgt mindestens 45em */ 
+@media (min-width: 45em) {
+	/* Breite beträgt mindestens 45em */
 	body {
-    grid-template-columns: 1fr 3fr 1fr;	
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: auto 1fr 100px;
 	}
 }
 
 header,footer {
 	grid-column: 1 / -1;
+}
+
+nav {
+	background-color: 0081c3;
+	}
+
+	aside {
+		background-color: #0081c3;
+	}
+
+	footer {
+		background-color: #afafaf;
+	}
+
+	main {
+		background-color: #00a0b0;
+	}
+
+  header{
+    background-color: #014189; 
+
+  }
+
+button{
+  position: relative;
+  width: 300px;
+  margin-left: 50px;
+  height: 40px;
+  border-width:medium;
+  border-radius: 15px;
+  font-size: 18px;
+  font-family: cursive ;
+  background-color: aqua;
+  border-color: cyan;
+  font-weight: bold;
+}
+img {
+  position: relative;
+  top: 5px;
+}
+
+text {
+  position: relative;
+  bottom: 25px;
 }
