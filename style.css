@@ -2,6 +2,7 @@ h1 {
     font-style: italic;
     font-family: cursive;
     margin-left: 10px;
+	  color: white;
 }
 
 body {
@@ -22,11 +23,11 @@ header,footer {
 }
 
 nav {
-	background-color: #52B83D;
+	background-color: 0081c3;
 	}
 
 	aside {
-		background-color: #52B83D;
+		background-color: #0081c3;
 	}
 
 	footer {
@@ -38,7 +39,7 @@ nav {
 	}
 
   header{
-    background-color:#00aeef
+    background-color: #014189; 
 
   }
 
