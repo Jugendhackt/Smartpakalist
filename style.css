@@ -1,5 +1,6 @@
 h1 {
-    background-color:#00aeef ; 
+    background-color: #014189; 
+	color: white;
 }
 
 body {
@@ -20,11 +21,11 @@ header,footer {
 }
 
 nav {
-	background-color: #52B83D;
+	background-color: 0081c3;
 	}
 	
 	aside {
-		background-color: #52B83D;
+		background-color: #0081c3;
 	}
 	
 	footer {
