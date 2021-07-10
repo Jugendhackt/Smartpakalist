@@ -23,7 +23,7 @@ header,footer {
 }
 
 nav {
-	background-color: 0081c3;
+
 	}
 
 	aside {
@@ -65,3 +65,15 @@ text {
   position: relative;
   bottom: 25px;
 }
+
+ table {
+   position:relative;
+   left:5%;
+   width: 90%;
+   height: 500px;
+   font-size: 18px;
+ }
+
+ #ueberschrift {
+   height: 50px;
+ }
