@@ -18,3 +18,19 @@ body {
 header,footer {
 	grid-column: 1 / -1;
 }
+
+nav {
+	background-color: #52B83D;
+	}
+	
+	aside {
+		background-color: #52B83D;
+	}
+	
+	footer {
+		background-color: #afafaf;
+	}
+	
+	main {
+		background-color: #00a0b0;
+	}
