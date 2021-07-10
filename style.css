@@ -27,9 +27,21 @@ nav {
 	}
 
 	aside {
-		background-color: #0081c3;
+		div {
+			width: 300px;
+			border: 15px solid green;
+			padding: 50px;
+			margin: 20px;
+		  }
 	}
 
+	footer {
+		background-color: #afafaf;
+	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2ca208372c912a9a8e4f811182a41ec17addb40a
 	footer {
 		background-color: #afafaf;
 	}
