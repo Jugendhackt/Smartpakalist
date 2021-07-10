@@ -5,10 +5,95 @@
     </head>
     <body>
         <header>
-            <h1>Smartpakalist</h1>
+            <h1>
+              <img src="Jugendhackt_logo.jpg" alt="das Jugend hackt Logo " height="80px"; width="80px;" class="center">
+              <text>
+              Smartpakalist
+              <button onclick="window.location.href='Beispiel.html';"> Schulhompage </button>
+              <button onclick="window.location.href='Beispiel.html';"> Vertretungsplan </button>
+              <button onclick="window.location.href='Beispiel.html';"> Lehrer*innen &Uuml;bersicht </button>
+              <button onclick="window.location.href='Beispiel.html';"> Klassenchat </button>
+            </text>
+            </h1>
         </header>
         <nav>
-            Kalender
+        Kalender
+            <table border=1 id=’calendar‘>
+
+                <tr style=’visibility:collapse;‘ hidden>
+                <td colspan=7 id=’date_memory‘>-x-</td>
+                </tr>
+                <tr>
+                <td class=’calendar_head‘><a class=’calendar_link‘
+                href=’javascript:prevMonth()‘> &laquo;</a></td>
+                <td colspan=5 class=’calendar_head_month‘ id=’calendar_month‘>
+                —</td>
+                <td class=’calendar_head‘><a class=’calendar_link‘
+                href=’javascript:nextMonth()‘> &raquo;</a></td>
+
+
+                </tr>
+                <tr>
+                <td class=’calendar_day‘>Mo</td>
+                <td class=’calendar_day‘>Di</td>
+                <td class=’calendar_day‘>Mi</td>
+                <td class=’calendar_day‘>Do</td>
+                <td class=’calendar_day‘>Fr</td>
+                <td class=’calendar_day‘>Sa</td>
+                <td class=’calendar_day‘>So</td>
+                </tr>
+                <tr>
+                <td class=’calendar_entry‘ id=’calendar_entry_1′>28</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_2′>29</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_3′>30</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_4′>1</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_5′>2</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_6′>3</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_7′>4</td>
+                </tr>
+                <tr>
+                <td class=’calendar_entry‘ id=’calendar_entry_8′>5</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_9′>6</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_10′>7</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_11′>8</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_12′>9</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_13′>10</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_14′>11</td>
+                </tr>
+                <tr>
+                <td class=’calendar_entry‘ id=’calendar_entry_15′>12</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_16′>13</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_17′>14</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_18′>15</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_19′>16</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_20′>17</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_21′>18</td>
+                </tr>
+                <tr>
+                <td class=’calendar_entry‘ id=’calendar_entry_22′>19</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_23′>20</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_24′>21</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_25′>22</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_26′>23</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_27′>24</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_28′>25</td>
+                </tr>
+                <tr>
+                <td class=’calendar_entry‘ id=’calendar_entry_29′>26</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_30′>27</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_31′>28</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_32′>29</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_33′>30</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_34′>31</td>
+                <td class=’calendar_entry‘ id=’calendar_entry_35′>1</td>
+                </tr>
+                </tr>
+                </table>
+            
+                
+                
+                
+                </form>
         </nav>
         <main>
           <h2>Aufgaben</h2>
@@ -35,6 +120,5 @@
         <footer>
             footer
         </footer>
- 
-          </body>
-          </html>
+    </body>
+</html>
