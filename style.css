@@ -140,4 +140,14 @@ text {
    width: 95%;
    border-radius: 5px;
    color: white;
+   transition: 0.5s;
  }
+
+details:hover{
+  background-color: rgba(0,255,255, 0.4);
+}
+
+p{
+  cursor: default;
+  user-select: text;
+}
