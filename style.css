@@ -3,6 +3,7 @@ h1 {
     font-family: cursive;
     margin-left: 10px;
 	  color: white;
+    cursor: default;
 }
 
 body {
@@ -34,27 +35,31 @@ nav {
 		background-color: #afafaf;
 	}
 
+	footer {
+		background-color: #afafaf;
+	}
+
 	main {
 		background-color: #00a0b0;
 	}
 
   header{
-    background-color: #014189; 
+    background-color: #014189;
 
   }
 
 button{
   position: relative;
-  width: 300px;
-  margin-left: 50px;
+  width: 17%;
   height: 40px;
   border-width:medium;
   border-radius: 15px;
   font-size: 18px;
   font-family: cursive ;
-  background-color: aqua;
+  background-color: #00a0b0;
   border-color: cyan;
   font-weight: bold;
+  cursor: pointer;
 }
 img {
   position: relative;
@@ -66,13 +71,44 @@ text {
   bottom: 25px;
 }
 
-main p{margin-top: 60px;
-}
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 200px;
-	background-color: #f1f1f1;
-	border: 1px solid #555;
-  }
+ table {
+   position:relative;
+   left:5%;
+   width: 90%;
+   height: 500px;
+   font-size: 18px;
+   background-color: 0081c3
+ }
+
+
+ th{
+   height: 150px;
+   border:none;
+   font-family: cursive;
+   font-style: italic;
+   color: white;
+   font-size: 25px;
+  cursor: default;
+
+ }
+ td{
+   border-width: thin;
+   border-radius: 5px;
+   width: 200px;
+   height: 50px;
+   background-color: rgba(0, 62.75, 69.02, 0.3);
+   border-color:  rgba(0, 62.75, 69.02, 0.5)
+ }
+
+ a{
+   text-decoration: none;
+ }
+
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 200px;
+   background-color: #f1f1f1;
+   border: 1px solid #555;
+   }
