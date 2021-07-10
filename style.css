@@ -38,10 +38,7 @@ nav {
 	footer {
 		background-color: #afafaf;
 	}
-<<<<<<< HEAD
-=======
 
->>>>>>> 2ca208372c912a9a8e4f811182a41ec17addb40a
 	footer {
 		background-color: #afafaf;
 	}
@@ -57,14 +54,13 @@ nav {
 
 button{
   position: relative;
-  width: 300px;
-  margin-left: 50px;
+  width: 17%;
   height: 40px;
   border-width:medium;
   border-radius: 15px;
   font-size: 18px;
   font-family: cursive ;
-  background-color: aqua;
+  background-color: #00a0b0;
   border-color: cyan;
   font-weight: bold;
 }
