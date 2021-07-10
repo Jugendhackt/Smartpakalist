@@ -36,20 +36,6 @@ nav {
 
 	main {
 		background-color: #00a0b0;
-<<<<<<< HEAD
-		
-	}
-main p{margin-top: 60px;
-}
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 200px;
-	background-color: #f1f1f1;
-	border: 1px solid #555;
-  }
-=======
 	}
 
   header{
@@ -79,4 +65,14 @@ text {
   position: relative;
   bottom: 25px;
 }
->>>>>>> 2ca208372c912a9a8e4f811182a41ec17addb40a
+
+main p{margin-top: 60px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+	border: 1px solid #555;
+  }
