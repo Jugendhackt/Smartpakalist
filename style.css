@@ -33,4 +33,15 @@ nav {
 	
 	main {
 		background-color: #00a0b0;
+		
 	}
+main p{margin-top: 60px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+	border: 1px solid #555;
+  }
