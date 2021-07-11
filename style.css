@@ -9,6 +9,7 @@ h1 {
 body {
     display: grid;
 		gap: 0.5em;
+    user-select: none;
 }
 
 @media (min-width: 45em) {
@@ -23,17 +24,6 @@ header,footer {
 	grid-column: 1 / -1;
 }
 
-nav {
-	background-color: 0081c3;
-	}
-
-	aside {
-		background-color: #0081c3;
-	}
-
-	footer {
-		background-color: #afafaf;
-	}
 
 	footer {
 		background-color: #afafaf;
@@ -41,11 +31,12 @@ nav {
 
 	main {
 		background-color: #00a0b0;
+    border-radius: 5px;
 	}
 
   header{
     background-color: #014189;
-
+    border-radius: 5px;
   }
 
 button{
@@ -60,10 +51,18 @@ button{
   border-color: cyan;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.70s;
 }
+
+button:hover{
+  background-color: 0081c3;
+  border-color: #00a0b0;
+}
+
 img {
   position: relative;
   top: 5px;
+  border-radius: 5px
 }
 
 text {
@@ -77,7 +76,8 @@ text {
    width: 90%;
    height: 500px;
    font-size: 18px;
-   background-color: 0081c3
+   background-color: 0081c3;
+   border-radius: 5px;
  }
 
 
@@ -92,12 +92,19 @@ text {
 
  }
  td{
+   text-align: center;
+   color: white;
    border-width: thin;
    border-radius: 5px;
    width: 200px;
    height: 50px;
    background-color: rgba(0, 62.75, 69.02, 0.3);
-   border-color:  rgba(0, 62.75, 69.02, 0.5)
+   border-color:  rgba(0, 62.75, 69.02, 0.5);
+   transition: 0.3s;
+ }
+
+ td:hover{
+   background-color: #00a0b0;
  }
 
  a{
@@ -112,3 +119,35 @@ text {
    background-color: #f1f1f1;
    border: 1px solid #555;
    }
+
+ h2 {
+   position: relative;
+   left: 10px;
+   font-family:cursive;
+   font-style: italic;
+   text-align: center;
+   color: white;
+
+ }
+
+ details{
+   position:relative;
+   left: 2.5%;
+   font-family:cursive;
+   cursor: pointer;
+   background-color: rgba(0,255,255, 0.2);
+   margin-bottom: 5px;
+   width: 95%;
+   border-radius: 5px;
+   color: white;
+   transition: 0.5s;
+ }
+
+details:hover{
+  background-color: rgba(0,255,255, 0.4);
+}
+
+p{
+  cursor: default;
+  user-select: text;
+}
