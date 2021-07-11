@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-         <link href="style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -9,11 +9,10 @@
               <img src="Jugendhackt_logo.jpg" alt="das Jugend hackt Logo " height="80px"; width="80px;" class="center">
               <text>
               Smartpakalist
-              <button onclick="window.location.href='Beispiel.html';"> Schulhompage </button>
-              <button onclick="window.location.href='Beispiel.html';"> Vertretungsplan </button>
-              <button onclick="window.location.href='Beispiel.html';"> EMails </button>
-
-              <button onclick="window.location.href='Beispiel.html';"> Klassenchat </button>
+              <button onclick="window.location.href='Schulwebsite.html';"> Schulhompage </button>
+              <button onclick="window.location.href='Vertretungsplan.html';"> Vertretungsplan </button>
+              <button onclick="window.location.href='LehrerInnen_Liste.html';"> Lehrer*innen </button>
+              <button onclick="window.location.href='Klassenchat.html';"> Klassenchat </button>
             </text>
             </h1>
         </header>
@@ -117,28 +116,36 @@
                 <p> Zeichnung Zelle</p>
               </details>
 
+              <details>
+                <summary>Aufgabe 5</summary>
+                <p style="font-weight: bold; text-decoration:underline; text-decoration-color: red"> Deutsch </p>
+                <p> Seite 110-135 lesen</p>
+              </details>
         </main>
 
 
 
         <aside>
             <div>
-                <ul>
-                    <li><a href="">Deutsch</a></li>
-                    <li><a href="">Mathe</a></li>
-                    <li><a href="">Englisch</a></li>
-                    <li><a href="">Biologie</a></li>
-                    <li><a href="">Geschichte</a></li>
-                    <li><a href="">Französisch</a></li>
-                    <li><a href="">Latein</a></li>
-                    <li><a href="">Sport</a></li>
-                    <li><a href="">Musik</a></li>
-                    <li><a href="">Kunst</a></li>
-                </ul>
+                    <button onclick="myFunction(Deutsch)">Deutsch</button> <br>
+                    <button onclick="myFunction(Mathe)">Mathe</button> <br>
+                    <button>Englisch</button> <br>
+                    <button>Biologie</button> <br>
+                    <button>Geschichte</button> <br>
+                    <button>Französisch</button> <br>
+                    <button>Latein</button> <br>
+                    <button>Sport</button> <br>
+                    <button>Musik</button> <br>
+                    <button>Kunst</button> <br>
             </div>
         </aside>
+
         <footer>
-            footer
+          <br> <br>
+            <a style="color:black;" href="Kontakt.html"> Kontakt <a> <br>
+            <a style="color:black;" href="Hilfe.html"> Hilfe <a>
         </footer>
+
+        <script><button onclick="myFunction()">Click me</button></script>
     </body>
 </html>
