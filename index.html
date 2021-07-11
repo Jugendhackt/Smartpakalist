@@ -91,34 +91,34 @@
         <main>
           <h2>Aufgaben</h2>
 
-            <details>
+            <details name="box">
               <summary>Aufgabe 1</summary>
-              <p style="font-weight: bold; text-decoration:underline; text-decoration-color: orange"> Englisch </p>
+              <p name="Fach" style="font-weight: bold; text-decoration:underline; text-decoration-color: orange">Englisch</p>
               <p> S. 215 Aufgabe 1-3; Gruppenarbeit</p>
             </details>
 
-            <details>
+            <details name="box">
                 <summary>Aufgabe 2 </summary>
-                <p style="font-weight: bold; text-decoration:underline; text-decoration-color: black"> Politik  </p>
+                <p name="Fach" style="font-weight: bold; text-decoration:underline; text-decoration-color: black">Politik </p>
                 <p> AB 03 "Wirtschaftliche Aspekte der EU" bearbeiten</p>
                 <p style="color:red"> Abgabe: 20.6. </p>
               </details>
 
-              <details>
+              <details name="box">
                 <summary>Aufgabe 3</summary>
-                <p style="font-weight: bold; text-decoration:underline; text-decoration-color: blue"> Franz&ouml;sisch </p>
+                <p name="Fach" style="font-weight: bold; text-decoration:underline; text-decoration-color: blue">Französisch</p>
                 <p> Seite 256 Nummer 7 </p>
               </details>
 
-              <details>
+              <details name="box">
                 <summary>Aufgabe 4</summary>
-                <p style="font-weight: bold; text-decoration:underline; text-decoration-color: green"> Biologie </p>
+                <p name="Fach" style="font-weight: bold; text-decoration:underline; text-decoration-color: green">Biologie</p>
                 <p> Zeichnung Zelle</p>
               </details>
 
-              <details>
+              <details name="box">
                 <summary>Aufgabe 5</summary>
-                <p style="font-weight: bold; text-decoration:underline; text-decoration-color: red"> Deutsch </p>
+                <p name="Fach" style="font-weight: bold; text-decoration:underline; text-decoration-color: red">Deutsch</p>
                 <p> Seite 110-135 lesen</p>
               </details>
         </main>
@@ -127,21 +127,41 @@
 
         <aside>
             <div>
-                    <button onclick="myFunction(Deutsch)">Deutsch</button> <br>
-                    <button onclick="myFunction(Mathe)">Mathe</button> <br>
-                    <button>Englisch</button> <br>
-                    <button>Biologie</button> <br>
-                    <button>Geschichte</button> <br>
-                    <button>Französisch</button> <br>
-                    <button>Latein</button> <br>
-                    <button>Sport</button> <br>
-                    <button>Musik</button> <br>
-                    <button>Kunst</button> <br>
+                    <button onclick="myFunction('Deutsch')">Deutsch</button> <br>
+                    <button onclick="myFunction('Mathe')">Mathe</button> <br>
+                    <button onclick="myFunction('Englisch')">Englisch</button> <br>
+                    <button onclick="myFunction('Biologie')">Biologie</button> <br>
+                    <button onclick="myFunction('Geschichte')">Geschichte</button> <br>
+                    <button onclick="myFunction('Französisch')">Französisch</button> <br>
+                    <button onclick="myFunction('Latein')">Latein</button> <br>
+                    <button onclick="myFunction('Sport')">Sport</button> <br>
+                    <button onclick="myFunction('Musik')">Musik</button> <br>
+                    <button onclick="myFunction('Kunst')">Kunst</button> <br>
+                    <button onclick="alleFaecherAnzeigen()">Alles Anzeigen</button> <br>
             </div>
         </aside>
         <footer>
             footer
         </footer>
-        <script><button onclick="myFunction()">Click me</button></script>
+        <script>
+            function myFunction (Fach){
+                let details=document.getElementsByName("box");
+                let subjects=document.getElementsByName("Fach");
+                for(let i=0;i<subjects.length;i++){
+                  if(subjects[i].textContent!=Fach){
+                      details[i].style.display="none";
+                      console.log(subjects[i].style.display);
+                  }  
+                }
+            }
+            function alleFaecherAnzeigen (){
+                let details=document.getElementsByName("box");
+                let subjects=document.getElementsByName("Fach");
+                for(let i=0;i<subjects.length;i++){
+                      details[i].style.display="block";
+                      console.log(subjects[i].style.display);  
+                }
+            }
+        </script>
     </body>
 </html>

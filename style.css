@@ -151,3 +151,8 @@ p{
   cursor: default;
   user-select: text;
 }
+
+aside div button{
+	width:auto ;
+	height:auto ;
+}
