@@ -27,6 +27,8 @@ header,footer {
 
 	footer {
 		background-color: #afafaf;
+    border-radius: 5px;
+    text-align: center;
 	}
 
 	main {
@@ -151,3 +153,5 @@ p{
   cursor: default;
   user-select: text;
 }
+
+html {margin: 0; height: 100%; overflow: hidden}
