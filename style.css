@@ -27,6 +27,8 @@ header,footer {
 
 	footer {
 		background-color: #afafaf;
+    border-radius: 5px;
+    text-align: center;
 	}
 
 	main {
@@ -156,3 +158,8 @@ aside div button{
 	width:auto ;
 	height:auto ;
 }
+
+html {
+	margin: 0; height: 100%; overflow: hidden
+}
+	
