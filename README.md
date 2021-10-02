@@ -1,3 +1,5 @@
 # Smartpakalist :llama:
 
-Mit Smartpakalist kannst du deinen Eigenen Vertretungsplan so gestalten, wie du es brauchst.
+## Beschreibung :notebook:
+
+Mit Smartpakalist kannst du deinen eigenen Vertretungsplan so gestalten, wie du es brauchst.
