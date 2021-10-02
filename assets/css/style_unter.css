@@ -1,0 +1,33 @@
+button{
+  position: relative;
+  width: 33%;
+  height: 40px;
+  border-width:medium;
+  border-radius: 15px;
+  font-size: 18px;
+  font-family: cursive ;
+  background-color: #00a0b0;
+  border-color: cyan;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.70s;
+  left: 33%;
+}
+
+button:hover{
+  background-color: 0081c3;
+  border-color: #00a0b0;
+}
+
+p{
+margin-top: 15%;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+  color:white;
+}
+
+html{
+  background-color: 0081c3;
+}
